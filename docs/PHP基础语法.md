@@ -10,7 +10,7 @@ PHP有四种基本类型：bool, integer, float(double), string；两种复合�
 
 ### 类型判断
 
-基本类型都可以使用`is_*()`函数判断。
+基本类型都可以使用 `is_*()` 函数判断。
 
 ```php
 is_bool(False);
@@ -102,7 +102,7 @@ done
 
 ### For循环
 
-传统的for循环，例如C语言中的`for (int i = 0; i < 10; i++)`，应该尽量舍弃。在现代的，高级的编程语言里，如下所示的遍历循环更加常见。
+传统的for循环，例如C语言中的 `for (int i = 0; i < 10; i++)`，应该尽量舍弃。在现代的，高级的编程语言里，如下所示的遍历循环更加常见。
 
 ```php
 foreach ($iterable as $item) {
